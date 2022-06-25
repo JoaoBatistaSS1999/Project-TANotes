@@ -6,14 +6,9 @@ export default createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
-  color: #000000;
+  /* color: #000000; */
   scroll-behavior: smooth;
-  transition: ease-in-out;
-  
-  &::selection {
-    background-color: #ffffff;
-    color: #000000;
-  }
+  transition: ease-in-out; 
 }
 
 button {
