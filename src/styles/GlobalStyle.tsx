@@ -5,15 +5,14 @@ export default createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto Mono", monospace;
-  /* color: #000000; */
+  font-family: "Roboto Mono", monospace;  
   scroll-behavior: smooth;
   transition: ease-in-out; 
 }
 
 button {
     cursor: pointer;
-    border: none;    
+    border: none;
 }
 
 ul {
