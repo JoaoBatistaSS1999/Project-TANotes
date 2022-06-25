@@ -7,7 +7,9 @@ const Header: React.FC = () => {
       <div>
         <h2>TAnotes</h2>
       </div>
-      <div></div>
+      <div className='joke'>
+        powered by <strong>Absolutely Nobody</strong>
+      </div>
     </Container>
   );
 };

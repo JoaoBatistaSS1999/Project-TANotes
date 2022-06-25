@@ -7,7 +7,9 @@ export default createGlobalStyle`
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;  
   scroll-behavior: smooth;
-  transition: ease-in-out; 
+  transition: ease-in-out;
+  
+
 }
 
 button {

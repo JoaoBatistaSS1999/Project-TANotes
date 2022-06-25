@@ -6,7 +6,9 @@ const Main: React.FC = () => {
   return (
     <Container>
       <Sidebar />
-      <div>Content</div>
+      <div className='content-container'>
+        <div className='contents'>Content</div>
+      </div>
     </Container>
   );
 };

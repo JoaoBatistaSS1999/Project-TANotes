@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/header";
-import Sidebar from "./components/sidebar";
+import Main from "./components/main";
 import GlobalStyle from "./styles/GlobalStyle";
 
 function App() {
@@ -9,9 +9,7 @@ function App() {
       <GlobalStyle />
 
       <Header />
-      <div className='main'>
-        <Sidebar />
-      </div>
+      <Main />
     </React.Fragment>
   );
 }
