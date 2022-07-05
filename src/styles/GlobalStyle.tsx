@@ -25,6 +25,10 @@ a {
   text-decoration: none;  
 }
 
+a:visited {
+    color: #ffffff;
+}
+
 h2 {
   font-size: 22px;
 }`;

@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 interface IProps {
   title: string;
   drop: boolean;
-  direct?: string | undefined;
+  direct: string;
 }
 
 const TopicTitle: React.FC<IProps> = ({ title, drop, direct }) => {

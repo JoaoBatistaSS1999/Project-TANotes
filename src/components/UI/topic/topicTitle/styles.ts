@@ -10,6 +10,7 @@ export const TitleContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  color: #000000;
 
   cursor: pointer;
 
